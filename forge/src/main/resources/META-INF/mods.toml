@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[49,)"
+#issueTrackerURL = ""
+license = "GPL-3.0-or-later"
+
+[[mods]]
+modId = "weatherconfig"
+version = "${version}"
+displayName = "Weather Config"
+authors = "rarepeepo"
+description = '''
+Gives you more control over the weather
+'''
+logoFile = "assets/weatherconfig/icon.png"
+
+[[dependencies.weatherconfig]]
+modId = "forge"
+mandatory = true
+versionRange = "[49,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.weatherconfig]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.weatherconfig]]
+modId = "architectury"
+mandatory = true
+versionRange = "[11.1.17,)"
+ordering = "AFTER"
+side = "BOTH"

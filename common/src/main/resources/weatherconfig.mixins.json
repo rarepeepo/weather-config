@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "rare.peepo.wx.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "BiomeMixin",
+    "LevelPropertiesMixin",
+    "SnowBlockMixin",
+    "IceBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

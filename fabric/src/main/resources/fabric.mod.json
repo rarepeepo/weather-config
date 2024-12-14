@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "weatherconfig",
+  "version": "${version}",
+  "name": "Weather Config",
+  "description": "Gives you more control over the weather",
+  "authors": [
+    "rarepeepo"
+  ],
+  "contact": {
+    "sources": "https://github.com/rarepeepo/weather-config"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/weatherconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rare.peepo.wx.fabric.WxModFabric"
+    ]
+  },
+  "mixins": [
+    "weatherconfig.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "architectury": ">=11.1.17",
+    "fabric-api": "*"
+  }
+}
